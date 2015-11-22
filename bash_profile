@@ -12,7 +12,7 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$
 export TERM=xterm-color
 #set up proper alias commands when called
 alias ls='ls -vG'
-alias ll='ls -vGal
+alias ll='ls -vGal'
 alias lt='ls -vGlt'
 
 #fastboot command
@@ -23,8 +23,8 @@ alias frd='fastboot oem reboot-download'
 alias fzip='fastboot flash zip'
 
 #adb command
-alias adbv='adb devices'
-alias ah='adb wait-for-device shell'
-alias ar='adb wait-for-device reboot'
+alias av='adb devices'
+alias adbh='adb wait-for-device shell'
+alias adbr='adb wait-for-device reboot'
 alias arb='adb wait-for-devce reboot bootloader'
 alias ard='adb wait-for-device reboot download'
